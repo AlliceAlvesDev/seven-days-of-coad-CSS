@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family= Inter:wght@400;500;600 & display =swap');
+
+:root {
+    --font-principal: 'Inter', sans-serif;
+    --cor-primaria: #FFFFFF;
+    --cor-secundaria: #667085;
+    --cor-terciaria: #8E2424;
+    --cor-quartenaria: #101828;
+    --cor-quintenaria: #EAECF0;
+    --cor-sextaria: #C31919;
+    --cor-setimaria: #F9FAFB;
+    --cor-oitaria: #D0D5DD;
+    --cor-nonaria: #98A2B3;
+}
+
+body {
+    background-color: var(--cor-primaria);
+    font-family: var(--font-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    padding: 2em 6em 0 6em;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.navbar__imagem {
+    margin-right: 0.5em;
+    margin-top: 0.5em;
+    width: 2em;
+    height: 2em;
+}
+
+.navbar__texto {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 0.7em;
+}
+
+.navbar__lista {
+    display: flex;
+    margin: 1em 5em 1em 5em;
+    list-style-type: none;
+}
+
+.navbar__lista__link {
+    color: var(--cor-secundaria);
+    text-decoration: none;
+    margin: 1em;
+}
+
+.navbar__lista__botao {
+    color: var(--cor-secundaria);
+    text-decoration: none;
+    margin: 1em 2em 1em 6em;
+}
+
+.navbar__lista__botao__color {
+    margin: 1em 0.5em 1em 1em;
+    padding: 0 1em 0 1em;
+    background-color: var(--cor-terciaria);
+    color: var(--cor-primaria);
+    border-radius: 0.5em;
+    text-decoration: none;
+    border: 1em solid var(--cor-terciaria);
+}
+
+.cabecalho {
+    padding: 6em;
+    align-items: center;
+    text-align: center;
+}
+
+.cabecalho__subtitulo {
+    font-weight: 600;
+    color: var(--cor-terciaria);
+}
+
+.cabecalho__titulo {
+    padding: 0.5em;
+    font-weight: 600;
+    font-size: 48px;
+    color: var(--cor-quartenaria);
+}
+
+.cabecalho__texto {
+    font-size: 20px;
+    color: var(--cor-secundaria);
+    margin: 0.4em 15em 0 15em;
+}
+
+.metricas {
+    align-items: center;
+}
+
+.metricas__lista {
+    margin: 0 6em 6em 6em;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.metricas__lista__bloco__primeiro {
+    margin: 0 2em 0 2em;
+}
+
+.metricas__lista__bloco {
+    margin: 0 2em 0 2em;
+}
+
+.metricas__lista__titulo {
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--cor-terciaria);
+    margin-bottom: 0.3em;
+}
+
+.metricas__lista__subtitulo {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--cor-quartenaria);
+    margin-bottom: 0.2em;
+}
+
+.metricas__lista__texto {
+    color: var(--cor-secundaria);
+    margin: 0.5em 2em 0 0;
+}
+
+.vagas__talentos {
+    align-items: center;
+    text-align: center;
+}
+
+.vagas__talentos__subtitulo {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--cor-terciaria);
+    margin-bottom: 1em;
+    border-radius: 0 solid var(--cor-sextaria);
+    background-color: rgba(195,25,25,0.1);
+    border-radius: 1em;
+    padding: 0.3em 0.5em;
+    margin: 0 50em;
+}
+
+.vagas__talentos__titulo {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--cor-quartenaria);
+    margin: 0.5em 0;
+}
+
+.vagas__talentos__texto {
+    font-size: 20px;
+    color: var(--cor-secundaria); 
+    margin-bottom: 2em;
+}
+
+.vagas__abertura {
+    margin: 4em 23em 0 23em;
+}
+
+.vagas__lista {
+    list-style-type: none;
+}
+
+.vagas__titulo {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--cor-quartenaria);
+    margin-top: 3.5em;
+    margin-bottom: 2em;
+}
+
+.vagas__lista__item {
+    border: 0.1em solid var(--cor-quintenaria);
+    border-radius: 1.1em;
+    padding: 2em;
+    margin-bottom: 1.5em;
+}
+
+.vagas__lista__titulo {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--cor-quartenaria);
+    margin-bottom: 2em;
+}
+
+.vagas__lista__texto {
+    font-weight: 500;
+    color: var(--cor-secundaria);
+    display: inline;
+    margin-right: 1.5em;
+}
+
+.depoimentos {
+    text-align: center;
+    align-items: center;
+    
+    border-radius: 0 solid var(--cor-sextaria);
+    background-color: rgba(195,25,25,0.1);
+    border-radius: 1em;
+    padding: 4em;
+    margin: 5em 8em;
+}
+
+.depoimentos__subtitulo {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--cor-terciaria);
+   margin-top: -1em; 
+}
+
+.depoimentos__texto {
+    font-size: 36px;
+    font-weight: 500;
+    margin: 0.6em -0.2em 0 -0.2em;
+}
+
+.depoimentos__imagem {
+    margin: 4em 0 0 0;
+}
+
+.depoimentos__nome {
+    font-weight: 500;
+    color: var(--cor-quartenaria);
+    margin-top: 1em;
+}
+
+.depoimentos__profissao {
+    font-size: 14px;
+    color: var(--cor-secundaria);
+    margin-top: 1em;
+}
+
+.formulario {
+    text-align: center;
+    align-items: center;
+    margin-top: 4em;
+    background-color: var(--cor-setimaria);
+    padding: 6em;
+}
+
+.formulario__titulo {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--cor-quartenaria);
+    margin-bottom: 0.6em;
+}
+
+.formulario__texto {
+    font-size: 20px;
+    color: var(--cor-secundaria);
+    margin-bottom: 1.5em;
+}
+
+.formulario__botoes {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.formulario__email {
+    color: var(--cor-secundaria);
+    border: 0.1em solid var(--cor-oitaria);
+    background-color: var(--cor-primaria);
+    border-radius: 0.5em;
+    padding: 1em 16em 1em 0.7em;
+    margin: 0 1em 0 27em;
+    list-style-type: none;
+}
+
+.formulario__cadastrar {
+    color: var(--cor-primaria);
+    border: 0.1em solid var(--cor-terciaria);
+    background-color: var(--cor-terciaria);
+    border-radius: 0.5em;
+    list-style-type: none;
+    padding: 1em;
+}
+
+.rodape {
+    margin: 2em;
+    color: var(--cor-nonaria);
+}
