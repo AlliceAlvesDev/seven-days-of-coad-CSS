@@ -5,11 +5,11 @@
     --cor-primaria: #FFFFFF;
     --cor-secundaria: #667085;
     --cor-terciaria: #8E2424;
-    --cor-quartenaria: #101828;
-    --cor-quintenaria: #EAECF0;
-    --cor-sextaria: #C31919;
-    --cor-setimaria: #F9FAFB;
-    --cor-oitaria: #D0D5DD;
+    --cor-quaternaria: #101828;
+    --cor-quinaria: #EAECF0;
+    --cor-sinaria: #C31919;
+    --cor-setenaria: #F9FAFB;
+    --cor-octaria: #D0D5DD;
     --cor-nonaria: #98A2B3;
 }
 
@@ -88,7 +88,7 @@ body {
     padding: 0.5em;
     font-weight: 600;
     font-size: 48px;
-    color: var(--cor-quartenaria);
+    color: var(--cor-quaternaria);
 }
 
 .cabecalho__texto {
@@ -126,7 +126,7 @@ body {
 .metricas__lista__subtitulo {
     font-size: 18px;
     font-weight: 600;
-    color: var(--cor-quartenaria);
+    color: var(--cor-quaternaria);
     margin-bottom: 0.2em;
 }
 
@@ -145,7 +145,7 @@ body {
     font-weight: 600;
     color: var(--cor-terciaria);
     margin-bottom: 1em;
-    border-radius: 0 solid var(--cor-sextaria);
+    border-radius: 0 solid var(--cor-sinaria);
     background-color: rgba(195,25,25,0.1);
     border-radius: 1em;
     padding: 0.3em 0.5em;
@@ -155,7 +155,7 @@ body {
 .vagas__talentos__titulo {
     font-size: 36px;
     font-weight: 600;
-    color: var(--cor-quartenaria);
+    color: var(--cor-quaternaria);
     margin: 0.5em 0;
 }
 
@@ -176,13 +176,13 @@ body {
 .vagas__titulo {
     font-size: 20px;
     font-weight: 600;
-    color: var(--cor-quartenaria);
+    color: var(--cor-quaternaria);
     margin-top: 3.5em;
     margin-bottom: 2em;
 }
 
 .vagas__lista__item {
-    border: 0.1em solid var(--cor-quintenaria);
+    border: 0.1em solid var(--cor-quinaria);
     border-radius: 1.1em;
     padding: 2em;
     margin-bottom: 1.5em;
@@ -191,7 +191,7 @@ body {
 .vagas__lista__titulo {
     font-size: 18px;
     font-weight: 600;
-    color: var(--cor-quartenaria);
+    color: var(--cor-quaternaria);
     margin-bottom: 2em;
 }
 
@@ -206,7 +206,7 @@ body {
     text-align: center;
     align-items: center;
     
-    border-radius: 0 solid var(--cor-sextaria);
+    border-radius: 0 solid var(--cor-sinaria);
     background-color: rgba(195,25,25,0.1);
     border-radius: 1em;
     padding: 4em;
@@ -232,7 +232,7 @@ body {
 
 .depoimentos__nome {
     font-weight: 500;
-    color: var(--cor-quartenaria);
+    color: var(--cor-quaternaria);
     margin-top: 1em;
 }
 
@@ -246,14 +246,14 @@ body {
     text-align: center;
     align-items: center;
     margin-top: 4em;
-    background-color: var(--cor-setimaria);
+    background-color: var(--cor-setenaria);
     padding: 6em;
 }
 
 .formulario__titulo {
     font-size: 36px;
     font-weight: 600;
-    color: var(--cor-quartenaria);
+    color: var(--cor-quaternaria);
     margin-bottom: 0.6em;
 }
 
@@ -271,7 +271,7 @@ body {
 
 .formulario__email {
     color: var(--cor-secundaria);
-    border: 0.1em solid var(--cor-oitaria);
+    border: 0.1em solid var(--cor-octaria);
     background-color: var(--cor-primaria);
     border-radius: 0.5em;
     padding: 1em 16em 1em 0.7em;
